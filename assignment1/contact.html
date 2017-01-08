@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Basic Portfolio</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+	<!-- header section with main title and page links -->
+	<header>
+		<div class="name">
+			<h1>Jay M. Frimmel</h1>
+		</div>
+
+		<nav>
+			<div class="contact">
+			<a href="index.html">About</a>
+			<a href="portfolio.html">Portfolio</a>
+			<a href="contact.html">Contact</a>
+			</div>
+		</nav>
+	</header>
+	<div style="clear: both;">		
+		</div>
+
+	<!-- main section for all pages and has aside part -->
+	<section>
+		<div class="container">
+			<h2>Contact</h2>
+
+			<article>
+			<form action="/my-handling-form-page" method="post">
+				<div>
+					<label for="name">Name:</label>
+					<input type="text" id="name" name="username" placeholder="Jane Smith" required />
+				</div>
+				<div>
+					<label for="mail">E-mail:</label>
+					<input type="email" id="mail" name="user_mail" placeholder="jsmith@email.com" required />
+				</div>
+				<div>
+					<label for="msg">Message:	</label>
+					<textarea id="msg" name="user_message" required>
+					</textarea>
+				</div>
+				<div class="button">
+					<button type="submit">Send your message</button>
+				</div>	
+			</form>
+			</article>
+
+		<aside>
+			<h3>Connect With Me</h3>
+				<div id="connect">
+				<img src="assets/images/github-512.png" alt="GitHub" height="75" width="70">
+				<img src="assets/images/linkdin.png" alt="LinkdIn" width="70" height="75">
+				<img src="assets/images/stackoverflow.png" alt="StackOverflow" height="75" width="70">
+				</div>
+		</aside>
+		</div>
+	</section>
+	
+	<div style="clear: both;">		
+		</div>
+
+	<footer>
+		Copyright 2016; Jay M. Frimmel
+	</footer>
+
+</body>
+</html>
